@@ -1,2 +1,0 @@
-# tangry.github.io
-rium
