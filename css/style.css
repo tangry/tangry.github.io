@@ -116,7 +116,7 @@ p{
 #top-header{
 	position: relative;
 	position: fixed;
-	height: 127px;
+	height: 200px;
 	width: 1170px;
 	z-index: 22;
 	background: url(../img/wrapper.png) no-repeat 0px 0px ;
@@ -124,7 +124,8 @@ p{
 
 #logo{
 	position: absolute;
-	top: 47px;
+	top: 10px;
+	left: 20px;
 }
 
 /* LINK BUTTON ------------------------------------------------------------*/
