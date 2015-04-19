@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Html шаблон блога</title>
+		<title>Республиканский Специализированный Центр Урологии</title>
 		
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
@@ -74,11 +74,29 @@
 			
 			<nav>
 				<ul id="nav" class="sf-menu">
-					<li><a href="index.html">Blog<span class="subheader">Read the stream</span></a></li>
-					<li><a href="page.html">Page<span class="subheader">Multipurpose template</span></a></li>
-					<li><a href="portfolio.html">Portfolio<span class="subheader">see my recent work</span></a></li>
-					<li class="current-menu-item"><a href="contact.html">Contact<span class="subheader">get in touch</span></a></li>
-					<li><a href="#">Dropdown<span class="subheader">Have many subitems</span></a>
+					<li class="current-menu-item"><a href="index.html">АО «РЕСПУБЛИКАНСКИЙ СПЕЦИАЛИЗИРОВАННЫЙ ЦЕНТР УРОЛОГИИ»<span class="subheader">общие сведения</span></a></li>
+					<li><a href="#">Центр<span class="subheader">информация</span></a>
+						<ul>
+							<li><a href="#">История</a></li>
+							<li><a href="#">Сегодня</a></li>
+							<li><a href="#">Лицензии</a></li>
+							<li><a href="#">Отчеты о работе</a></li>
+							<li><a href="#">Вакансии</a></li>
+						</ul>
+					</li>
+					<li><a href="page.html">Структура<span class="subheader">Руководство центра</span></a></li>
+					<li><a href="#">Отделы<span class="subheader">информация</span></a>
+						<ul>
+							<li><a href="#">Отдел эндоурологии</a></li>
+							<li><a href="#">Отдел андрологии</a></li>
+							<li><a href="#">Отдел онкоурологии</a></li>
+							<li><a href="#">Инновационный отдел</a></li>
+							<li><a href="#">Группа микрохирургии</a></li>
+						</ul>
+					</li>
+					<li><a href="portfolio.html">Отделения<span class="subheader">see my recent work</span></a></li>
+					<li><a href="contact.html">Лаборатории<span class="subheader">get in touch</span></a></li>
+					<li><a href="#">Библиотека<span class="subheader">Have many subitems</span></a>
 						<ul>
 							<li><a href="#">Submenu 1</a></li>
 							<li><a href="#">Submenu 2</a></li>
@@ -92,7 +110,7 @@
 				<div class="top-search">
 					<form  method="get" id="searchform" action="#">
 						<div>
-							<input type="text" value="Type and hit enter" name="s" id="s" onfocus="defaultInput(this, 'Type and hit enter')" onblur="clearInput(this, 'Type and hit enter')" />
+							<input type="text" value="Поиск" name="s" id="s" onfocus="defaultInput(this, 'Поиск')" onblur="clearInput(this, 'Поиск')" />
 						</div>
 					</form>
 				</div>
@@ -107,7 +125,7 @@
 				<!-- ENDS social -->
 			</nav>
 
-			<div id="sidebar-opener">Sidebar</div>
+			<div id="sidebar-opener">Пациентам</div>
 			
 			
 			<!-- content -->
@@ -132,8 +150,8 @@
 						
 						// You can get the latitud and Longitude values at http://itouchmap.com/latlong.html
 						
-						var latitude = 44.8011821;
-						var longitude = -68.7778138;
+						var latitude = 41.355065;
+						var longitude = 69.176459;
 						
 						// center map
 						var map = new GMap2(document.getElementById("map")); 
@@ -154,12 +172,14 @@
 					
 					
 					<div class="location">
-						<h4 class="sub-heading">Where are we</h4>
-							1234 Hammond Street<br/>
-							Bangor Maine USA<br/>
-							Zip Code 445567<br/>
-							Tel. (33) 4347 26235, (33) 4347 26211<br/>
-							<a href="http://bayguzin.ru">bayguzin.ru</a><br/>
+						<h4 class="sub-heading">Наш адрес</h4>
+							Узбекистан<br/>
+							г.Ташкент<br/>
+							пр-д 1-й SHIFOKORLAR, 1<br/
+							Индекс:  100109<br/>
+							Телефон:  +998 (71) 150-65-83<br/>
+							E-mail:  urology@dostlink.net<br/>
+							<a href= "http://rscu.uz">rscu.uz</a><br/>
 					</div>
 					
 					<!-- map -->
@@ -170,12 +190,12 @@
 					<!-- form -->
 					<script type="text/javascript" src="js/form-validation.js"></script>
 					<form id="contactForm" action="#" method="post">
-						<h4 class="sub-heading">Contact us using this form</h4>
+						<h4 class="sub-heading">Задать вопрос / Отзыв</h4>
 						<p> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
 						<fieldset>
 							<div>
 								<input name="name"  id="name" type="text" class="form-poshytip" title="Enter your full name" />
-								<label>Name</label>
+								<label>Имя: *</label>
 							</div>
 							<div>
 								<input name="email"  id="email" type="text" class="form-poshytip" title="Enter your email address" />
@@ -191,7 +211,7 @@
 							</div>
 							
 							<!-- send mail configuration -->
-							<input type="hidden" value="eric@bayguzin.ru" name="to" id="to" />
+							<input type="hidden" value="1192518@mail.ru" name="to" id="to" />
 							<input type="hidden" value="ENter the subject here" name="subject" id="subject" />
 							<input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl" />
 							<!-- ENDS send mail configuration -->
@@ -200,7 +220,7 @@
 						</fieldset>
 						
 					</form>
-					<p id="success" class="success">Form data sent. Thanks for your comments.</p>
+					<p id="success" class="success">Ваш запрос / отзыв отправлен. Спасибо.</p>
 					<!-- ENDS form -->
 
 					
