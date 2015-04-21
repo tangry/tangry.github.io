@@ -1,9 +1,8 @@
-﻿<!DOCTYPE  html>
+<!DOCTYPE  html>
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Сегодня</title>
-		<link rel="shortcut icon" href="/img/faviconURO.png" type="image/x-icon" />
+		<title>Республиканский Специализированный Центр Урологии</title>
 		
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
@@ -22,7 +21,6 @@
 		<!--[if IE 8]>
 		<link rel="stylesheet" href="css/ie8-hacks.css" type="text/css" media="screen" />
 		<![endif]-->
-		
 		
 		<!-- poshytip -->
 		<link rel="stylesheet" href="js/poshytip-1.0/src/tip-twitter/tip-twitter.css" type="text/css" />
@@ -57,8 +55,7 @@
   		
 		<!-- GOOGLE FONTS -->
 		<link href='http://fonts.googleapis.com/css?family=Arvo:400,700|PT+Sans' rel='stylesheet' type='text/css'>
-		
-		
+
 	</head>
 	<body>
 	
@@ -141,107 +138,101 @@
 			
 				
 				
-	
 				<!-- posts -->
 				<div id="posts">
+				
+					<!-- form -->
+					<script type="text/javascript" src="js/form-validation.js"></script>
+					<form id="contactForm" action="#" method="post">
+						<h4 class="sub-heading">Задать вопрос / Отзыв</h4>
+						<!-- <p> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p> -->
+						<fieldset>
+							<div>
+								<input name="name"  id="name" type="text" class="form-poshytip" title="Enter your full name" />
+								<label>Имя: *</label>
+							</div>
+							<div>
+								<input name="email"  id="email" type="text" class="form-poshytip" title="Enter your email address" />
+								<label>Email</label>
+							</div>
+							<div>
 								
-					<!-- entry-image -->
-					<article class="format-image">
-						<div class="feature-image">
-							<img src="img/dummies/02.jpg" alt="Featured" />
-							<span class="entry-buttons">
-								<span class="center-buttons">
-									<a href="img/dummies/02.jpg" class="zoom-it" rel="prettyPhoto"></a>
-								</span>
-							</span>
-						</div>
-						<div class="entry-top"></div>
-						<h4 class="entry-title"><span class="title">Кадровый потенциал:</span></h4>
-						<p> 55 врачей-урологов, в т.ч. 3 доктора и 16 кандидатов медицинских наук, 23 врача высшей категории.</p>
-						<div class="entry-date"><span class="entry-day">23</span><span class="entry-year">апр 2015</span></div>
+								<input name="web"  id="web" type="text" class="form-poshytip" title="Enter your website" />
+								<label>Website</label>
+							</div>
+							<div>
+								<textarea  name="comments"  id="comments" rows="5" cols="20" class="form-poshytip" title="Enter your comments"></textarea>
+							</div>
+							
+							<!-- send mail configuration -->
+							<input type="hidden" value="1192518@mail.ru" name="to" id="to" />
+							<input type="hidden" value="ENter the subject here" name="subject" id="subject" />
+							<input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl" />
+							<!-- ENDS send mail configuration -->
+							
+							<p><input type="button" value="Send" name="submit" id="submit" /> <span id="error" class="warning">Message</span></p>
+						</fieldset>
 						
-					</article>
-					<!-- ENDS entry-image -->
+					</form>
+					<p id="success" class="success">Ваш запрос / отзыв отправлен. Спасибо.</p>
+					<!-- ENDS form -->
 					
-					<!-- entry-image -->
-					<article class="format-image">
-						<div class="feature-image">
-							<img src="img/dummies/08.jpg" alt="Featured" />
-							<span class="entry-buttons">
-								<span class="center-buttons">
-									<a href="img/dummies/08.jpg" class="zoom-it" rel="prettyPhoto"></a>
-								</span>
-							</span>
-						</div>
-						<div class="entry-top"></div>
-						<h4 class="entry-title"><span class="title">Утренний обход профессора</span></h4>
-						<!-- <p> 55 врачей-урологов, в т.ч. 3 доктора и 16 кандидатов медицинских наук, 23 врача высшей категории.</p> -->
-						<div class="entry-date"><span class="entry-day">23</span><span class="entry-year">апр 2015</span></div>
+					<!-- GOOGLE MAPS -->
+					<!-- <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAyXu_1Zw3-DbyonSxgLICyxQ-I6o-NlCYgOr-loEEFEeu8iZ9qRRmG3g0keVax-xpFh-J4V95Bueprw" ></script>
+					<script type="text/javascript" >google.load("maps","2.x");</script>
+					
+					<script type="text/javascript">
 						
-					</article>
-					<!-- ENDS entry-image -->
-					
-					<!-- entry-quote -->
-					<article class="format-quote">
-						<div class="quote-bg">
-							<span class="quote-text">На основе Государственных грантов разрабатываются научные проекты по изучению эпидемиологии урологических заболеваний в Приаральском регионе, по совершенствованию и оптимизации техники эндоскопических перкутанных вмешательств на почках и мочевых путях, по улучшению мужского  здоровья.</span>
-							<div class="entry-date"><span class="entry-day">23</span><span class="entry-year">apr 2015</span></div>
-						</div>
-						<div class="entry-top"></div>
-					</article>
-					<!-- ENDS entry-quote -->
-					
-					<!-- entry-YOUTUBE-video -->
-					<!-- <article class="format-video">
-						<div class="lineheight-fix">
-							<iframe width="700" height="349" src="http://www.youtube.com/embed/NeizOPl8CVk" frameborder="0" allowfullscreen></iframe>
-							<div class="entry-top"></div>
-						</div>
-						<h4 class="entry-title"><span class="title">Видео лекции</span></h4>
-						<p> Подготовка кадров: Центр является учебной базой кафедр урологии ТМА и ТашИУВ, с 2000 года начата подготовка высококвалифицированных врачей урологов в системе магистратуры. Ежегодно организуются тематические стажировки для врачей урологов Республики в странах СНГ и дальнего зарубежья.</p>
-						<div class="entry-date"><span class="entry-day">23</span><span class="entry-year">апр 2015</span></div>
-					</article> -->
-					<!-- ENDS entry-YOUTUBE-video -->
-					
-					<!-- entry-link -->
-					<!-- <article class="format-link">
-						<div class="link-bg">
-							<a href="http://med.uz" class="link-text">Министерство Здравоохранения</a>
-							<!-- <a href="http://tipme.uz" class="link-text">ТашИУВ</a>
-							<a href="http://isida.uz" class="link-text">ISIDA Company</a> -->
-							<!-- <div class="entry-date"><span class="entry-day">23</span><span class="entry-year">sep 2011</span></div>
-						</div>
-						<div class="entry-top"></div>
-					</article> -->
-					<!-- ENDS entry-link -->
+						jQuery(document).ready(function($) {
+						
+						//##########################################
+						// Google maps
+						//##########################################
+						
+						// You can get the latitud and Longitude values at http://itouchmap.com/latlong.html
+						
+						var latitude = 41.355065;
+						var longitude = 69.176459;
+						
+						// center map
+						var map = new GMap2(document.getElementById("map")); 
+						var point = new GLatLng(latitude, longitude); 
+						map.setCenter(point, 16);
+						
+						// Set marker
+						marker = new GMarker(point); 
+						map.addOverlay(marker);
+						
+						// controls
+						map.addControl(new GLargeMapControl());
+						
+						});
+					</script> -->
+					<!-- ENDS GOOGLE MAPS -->
+	
 					
 					
+					<!-- <div class="location">
+						<h4 class="sub-heading">Наш адрес</h4>
+							Узбекистан<br/>
+							г.Ташкент<br/>
+							пр-д 1-й SHIFOKORLAR, 1<br/
+							Индекс:  100109<br/>
+							Телефон:  +998 (71) 150-65-83<br/>
+							E-mail:  urology@dostlink.net<br/>
+							<a href= "http://rscu.uz">rscu.uz</a><br/>
+					</div> -->
 					
+					<!-- map -->
+					<!-- <div id="map"></div> -->
 					
-					
+					<!-- <br class="blank-space"/> -->
 					
 
-					<!-- pager -->
-					<!-- <ul class='pager'>
-						<li class='first-page'><a href='#'>&laquo;</a></li>
-						<li><a href='#' >&lsaquo;</a></li>
-						<li><a href='#' >2</a></li>
-						<li><a href='#' >3</a></li>
-						<li class='active'><a href='#'>4</a></li>
-						<li><a href='#' >5</a></li>
-						<li><a href='#' >6</a></li>
-						<li><a href='#' >&rsaquo;</a></li>
-						<li class='last-page'><a href='#'>&raquo;</a></li>
-					</ul>
-					<div class="clear"></div -->>
-					<!-- ENDS pager -->					
+					
 					
 				</div>
 				<!-- ENDS posts -->
-				
-				
-
-				
 				
 				<footer>
 					<!-- footer-cols -->
