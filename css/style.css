@@ -30,7 +30,7 @@ hgroup, article, header, footer, section {
 
 body {
 	color: #484848;
-	background: #f9f9ee url(../img/halftone.png) no-repeat top left fixed;
+	background: #f9f9ee url(../img/halftone2.png) no-repeat top left fixed;
 	font-family:  'PT Sans', Helvetica, sans-serif;
 	font-size:  14px;
 }
@@ -57,7 +57,7 @@ p{
 #bottom-bg{
 	width: 100%;
 	height: 100%;
-	background: url(../img/halftone-bottom.png) no-repeat bottom right fixed;
+	background: url(../img/halftone-bottom2.png) no-repeat bottom right fixed;
 }
 
 #wrapper{
